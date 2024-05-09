@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*
+Arial, Helvetica, sans-serif  -> 
+weirdHeader.font-size: 10vw
+weirdHeader.line-height: 1em
+past.font-size = left.font-size = font-size: 11vw
+past.margin-top: 10vh;
+*/
+
+body {
+    /* #98ff98 = (120, 100%, 80%)*/
+    background-color:	hsl(120, 100%, 90%);
+}
+
+.weirdHeader {
+    font-size: 13vw;
+    text-align: center;
+    margin-top: 0.5em;/*1rem;*/
+    font-weight: 900;
+    line-height: 0.9em;/*0.7em;*/
+}
+
+.counter {
+    word-spacing: -0.1rem;
+    text-align: center;
+    /* letter-spacing: -0.1rem; */
+}
+
+#pastMonths {
+    font-size: 12vw;
+    margin-top: 5vh;
+}
+
+#pastDays {
+    font-size: 12vw;
+    margin-top: 0.2rem;
+}
