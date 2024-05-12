@@ -2,6 +2,10 @@ var dnow = new Date();
 dnow.setHours(8); //setting hours, 'cause we want only days
 var devent = new Date(2024, 3, 19, 9); //months start from 0
 
+function setGoodToGoColor() {
+    var body = document.querySelector("body");
+    body.style = "background-color:hsl(120, 100%, 90%)";
+}
 
 //var secondsPast = Math.round( (dnow.getTime() - devent.getTime())/1000 ); //more simple way to do it, but...
 function calcDaysAndMonths(dnow, devent) {
@@ -47,6 +51,7 @@ function calcDaysAndMonths(dnow, devent) {
 }
 
 var months_n_days = calcDaysAndMonths(dnow, devent)
+if (months_n_days[0]>=3) setGoodToGoColor();
 document.getElementById('monthsPast').innerText = months_n_days[0];
 document.getElementById('daysPast').innerText = months_n_days[1];
 
