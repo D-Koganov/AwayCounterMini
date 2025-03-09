@@ -51,7 +51,7 @@ function calcDaysAndMonths(dnow, devent) {
 }
 
 var months_n_days = calcDaysAndMonths(dnow, devent)
-if (months_n_days[0]>=3) setGoodToGoColor();
+if (months_n_days[0]>=4) setGoodToGoColor();
 document.getElementById('monthsPast').innerText = months_n_days[0];
 document.getElementById('daysPast').innerText = months_n_days[1];
 
