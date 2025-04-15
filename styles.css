@@ -13,8 +13,10 @@ past.margin-top: 10vh;
 */
 
 body {
-    /* #98ff98 = (120, 100%, 80%). previous color was hsl(69, 96%, 55%)*/
-    background-color:	hsl(330, 100%, 60%);
+    /* #98ff98 = (120, 100%, 80%) // previously was hsl(69, 96%, 55%), hsl(330, 100%, 60%), 
+       #e02189=hsl(327, 75%, 50%)
+    */
+    background-color:	hsl(327, 75%, 50%);
 }
 
 .weirdHeader {
