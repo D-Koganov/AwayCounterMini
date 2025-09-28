@@ -51,9 +51,7 @@ var months_n_days = calcDaysAndMonths(dnow, devent)
 
 var body = document.querySelector("body");
 if (months_n_days[0]>=4) {
-    body.style = "background-color:hsl(120, 100%, 90%)";
-} else if (months_n_days[0]==3) {
-    body.style = "background-color:hsl(60, 55%, 55%)";
+    body.style = "background-color: #800080";
 }
 
 
@@ -61,3 +59,4 @@ document.getElementById('monthsPast').innerText = months_n_days[0];
 document.getElementById('daysPast').innerText = months_n_days[1];
 
 //document.getElementById('lastDate').innerText = dexpectedMinimum.toDateString();
+
