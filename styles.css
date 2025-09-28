@@ -16,7 +16,7 @@ body {
     /* #98ff98 = (120, 100%, 80%) // previously was hsl(69, 96%, 55%), hsl(330, 100%, 60%), 
        #e02189=hsl(327, 75%, 50%)
     */
-    background-color:	hsl(327, 75%, 50%);
+    background-color: #008000;
 }
 
 .weirdHeader {
@@ -42,3 +42,4 @@ body {
     font-size: 12vw;
     margin-top: 0.2rem;
 }
+
